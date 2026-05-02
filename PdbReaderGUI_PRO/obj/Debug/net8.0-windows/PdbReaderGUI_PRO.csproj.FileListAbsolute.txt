@@ -1,0 +1,14 @@
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\bin\Debug\net8.0-windows\PdbReaderGUI_PRO.exe
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\bin\Debug\net8.0-windows\PdbReaderGUI_PRO.deps.json
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\bin\Debug\net8.0-windows\PdbReaderGUI_PRO.runtimeconfig.json
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\bin\Debug\net8.0-windows\PdbReaderGUI_PRO.dll
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\bin\Debug\net8.0-windows\PdbReaderGUI_PRO.pdb
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\obj\Debug\net8.0-windows\PdbReaderGUI_PRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\obj\Debug\net8.0-windows\PdbReaderGUI_PRO.AssemblyInfoInputs.cache
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\obj\Debug\net8.0-windows\PdbReaderGUI_PRO.AssemblyInfo.cs
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\obj\Debug\net8.0-windows\PdbReaderGUI_PRO.csproj.CoreCompileInputs.cache
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\obj\Debug\net8.0-windows\PdbReaderGUI_PRO.dll
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\obj\Debug\net8.0-windows\refint\PdbReaderGUI_PRO.dll
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\obj\Debug\net8.0-windows\PdbReaderGUI_PRO.pdb
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\obj\Debug\net8.0-windows\PdbReaderGUI_PRO.genruntimeconfig.cache
+C:\Users\Master\Documents\Lua\TeRex777\user\playgo\app\JP2551-CUSA27390_00-HAMIDASHITR00001\00\PdbReaderGUI_PRO\obj\Debug\net8.0-windows\ref\PdbReaderGUI_PRO.dll

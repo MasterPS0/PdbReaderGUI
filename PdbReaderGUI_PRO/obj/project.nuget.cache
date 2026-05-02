@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kBjLgFft4AI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Master\\Documents\\Lua\\TeRex777\\user\\playgo\\app\\JP2551-CUSA27390_00-HAMIDASHITR00001\\00\\PdbReaderGUI_PRO\\PdbReaderGUI_PRO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
