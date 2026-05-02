@@ -53,6 +53,16 @@ The tool reads the `.pdb` file as raw binary data and:
 
 ---
 
+## Usage
+
+### 1. Run the Application
+
+```bash
+dotnet run
+```
+
+---
+
 ### 2. Steps
 
 1. Click **Browse** → Select `.pdb` file
