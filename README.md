@@ -3,133 +3,281 @@
 
 ## 📌 Overview
 
-**PDB Reader PRO** is a Windows desktop tool built with C# (WinForms) designed to analyze `.pdb` files and extract embedded readable data such as:
+PDB Reader PRO is a professional Windows desktop tool built with C# WinForms for analyzing `.pdb` files and extracting embedded readable data such as:
 
-* Content IDs / Names
 * PNG image links
 * JSON metadata links
 * PKG download links
+* Content IDs / Game IDs
+* Readable text strings
 
-The tool also provides a visual preview of images and allows exporting extracted data.
-
----
-
-## ✨ Features
-
-* 📂 Open and read `.pdb` files (binary supported)
-* 🔍 Extract readable text from binary data
-* 🌐 Detect and filter:
-
-  * `.png`
-  * `.json`
-  * `.pkg`
-* 🖼 Display image preview (128x128)
-* 📊 Organized table view
-* 💾 Export results:
-
-  * TXT file
-  * JSON file
-* Clear and reload data easily
-*  Clean and professional UI (light theme)
+The application supports automatic extraction, image preview, context menu integration, and file association for `.pdb` files.
 
 ---
 
-##  How It Works
+# ✨ Features
 
-The tool reads the `.pdb` file as raw binary data and:
+## ✅ File Features
 
-1. Extracts readable ASCII strings
-2. Uses Regular Expressions (Regex) to find:
+* Open `.pdb` files directly
+* Double-click `.pdb` support
+* Right-click context menu integration
+* Automatic extraction after opening file
+* Binary string extraction
 
-   * URLs
-   * File paths
+---
+
+## ✅ Extracted Data
+
+The tool automatically detects and extracts:
+
+* `.png`
+* `.json`
+* `.pkg`
+* Content IDs
+* URLs
+* Readable ASCII text
+
+---
+
+## ✅ UI Features
+
+* Professional light UI
+* Embedded application icon
+* Image preview panel
+* Search box
+* DataGrid table viewer
+* Details viewer
+* Fixed professional layout
+* No maximize button
+
+---
+
+## ✅ Export Features
+
+Export extracted data to:
+
+* TXT
+* JSON
+
+---
+
+# 📂 Included Files
+
+| File                      | Description                             |
+| ------------------------- | --------------------------------------- |
+| `PdbReaderGUI_PRO.exe`    | Main application                        |
+| `register_pdb.reg`        | Register `.pdb` extension with the tool |
+| `remove_register_pdb.reg` | Remove `.pdb` file association          |
+| `add_context_menu.reg`    | Add right-click context menu            |
+| `remove_context_menu.reg` | Remove right-click context menu         |
+
+---
+
+# 🖼 Preview
+
+## Main Interface
+
+* Left panel:
+
+  * Image preview
+  * File details
+
+* Right panel:
+
+  * Extracted table data
+
+* Top toolbar:
+
+  * Browse
+  * Save TXT
+  * Save JSON
+  * Clear
+
+---
+
+# 🚀 How It Works
+
+The application:
+
+1. Reads `.pdb` file as raw binary
+2. Extracts readable strings
+3. Uses Regex pattern matching
+4. Detects:
+
+   * PNG URLs
+   * JSON URLs
+   * PKG URLs
    * Content IDs
-3. Filters results by file extensions:
-
-   * `.png`
-   * `.json`
-   * `.pkg`
-4. Displays results in a structured table
+5. Displays results automatically
 
 ---
 
-## Usage
+# 📂 Supported Extensions
 
-### 1. Run the Application
-
-```bash
-dotnet run
-```
-
----
-
-### 2. Steps
-
-1. Click **Browse** → Select `.pdb` file
-2. Click **Extract** → Analyze file
-3. View results in the table:
-
-   * Name / Content ID
-   * PNG link
-   * JSON link
-   * PKG link
-4. Select any row to preview image
-5. Export results:
-
-   * Click **Save TXT**
-   * Click **Save JSON**
+| Type | Supported |
+| ---- | --------- |
+| PDB  | ✅         |
+| PNG  | ✅         |
+| JSON | ✅         |
+| PKG  | ✅         |
 
 ---
 
-## 📁 Output Examples
+# 🔍 Search System
 
-### TXT Output
+The built-in search system allows searching inside:
+
+* URLs
+* Content IDs
+* JSON links
+* PKG links
+
+Press `Enter` after typing.
+
+---
+
+# 💾 Export Example
+
+## TXT Export
 
 ```txt
 ====================================
-Name / Content ID: IP9100-PPSA01325_00-PREINMASTER00000
+Name / Content ID: JP0741-CUSA25180_00-JINKIT...
 PNG: https://image.api.playstation.com/...
-JSON: https://sgst.prod.dl.playstation.net/...
-PKG: http://gst.prod.dl.playstation.net/...
+JSON: http://gs2.ww.prod.dl.playstation.net/...
+PKG: /JP0741-CUSA25180_00-JINKIT.pkg
 ```
 
 ---
 
-### JSON Output
+## JSON Export
 
 ```json
 [
   {
-    "Name": "IP9100-PPSA01325_00-PREINMASTER00000",
+    "Name": "JP0741-CUSA25180_00-JINKIT",
     "PNG": "https://image.api.playstation.com/...",
-    "JSON": "https://sgst.prod.dl.playstation.net/...",
-    "PKG": "http://gst.prod.dl.playstation.net/..."
+    "JSON": "http://gs2.ww.prod.dl.playstation.net/...",
+    "PKG": "/JP0741-CUSA25180_00-JINKIT.pkg"
   }
 ]
 ```
 
 ---
 
-##  Requirements
+# ⚙️ Requirements
 
-* Windows OS
-* .NET 6 / 7 / 8 SDK
-* Internet connection (for image preview)
-
-
-##  Notes
-
-* `.pdb` files are treated as raw binary — results depend on embedded readable data
-* Some links may be partial or relative paths
-* Image preview requires valid online URLs
-
-
-##  Author
-
-Developed for advanced file analysis and reverse engineering purposes.
+* Windows 10 / 11
+* .NET 8 Runtime
+* Internet connection for image preview
 
 ---
 
-##  License
+# 📦 Build
 
-Free for personal and research use.
+## Run
+
+```bash
+dotnet run
+```
+
+## Publish EXE
+
+```bash
+dotnet publish -c Release -r win-x64 --self-contained true
+```
+
+---
+
+# 🔗 Windows Integration
+
+## Register `.pdb` Files
+
+Run:
+
+```txt
+register_pdb.reg
+```
+
+This enables:
+
+* Double-click `.pdb` support
+* Open directly with PDB Reader PRO
+
+---
+
+## Remove `.pdb` Association
+
+Run:
+
+```txt
+remove_register_pdb.reg
+```
+
+---
+
+## Add Right-Click Context Menu
+
+Run:
+
+```txt
+add_context_menu.reg
+```
+
+Adds:
+
+```txt
+Open with PDB Reader PRO
+```
+
+to the Windows context menu.
+
+---
+
+## Remove Context Menu
+
+Run:
+
+```txt
+remove_context_menu.reg
+```
+
+---
+
+# 🛠 Technologies Used
+
+* C#
+* .NET 8 WinForms
+* Regex
+* DataGridView
+* System.Text.Json
+* WebClient
+* Windows Registry
+
+---
+
+# 📌 Future Updates
+
+Planned features:
+
+* Drag & Drop support
+* Dark Mode
+* Multi-file extraction
+* Excel export
+* Faster async image loading
+* Modern UI redesign
+* Offline image cache
+
+---
+
+# 👨‍💻 Author
+
+PDB Reader PRO was created for advanced file analysis and reverse engineering workflows.
+
+---
+
+# 📄 License
+
+Free for educational and research purposes.
+
