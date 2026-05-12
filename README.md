@@ -1,5 +1,6 @@
 # PDB Reader PRO
-<img width="1233" height="642" alt="Unti7gtled-1" src="https://github.com/user-attachments/assets/c12f4c03-d3f5-4daa-ad50-afb23438115c" />
+<img width="767" height="493" alt="image" src="https://github.com/user-attachments/assets/226976b7-6cce-4ebb-bc6f-b85b17acd439" />
+
 
 ## 📌 Overview
 
